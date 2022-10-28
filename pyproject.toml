@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "aaa"
+version = "0.0.1"
+description = "Wrong mark when multiple depenedncy given"
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bbb = {path = "./bbb", develop = true}
